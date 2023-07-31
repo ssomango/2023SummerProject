@@ -1,0 +1,3 @@
+﻿  Main.cpp
+C:\Users\so-eunseo\MatchingGame\SummerGameProject\Main.cpp(6,33): warning C4829: main 함수에 대한 매개 변수가 잘못된 것 같습니다. 'int main(Platform::Array<Platform::String^>^ argv)'를 사용하십시오.
+LINK : fatal error LNK1104: 'C:\Users\so-eunseo\MatchingGame\arm64\Debug\SummerGameProject.exe' 파일을 열 수 없습니다.
