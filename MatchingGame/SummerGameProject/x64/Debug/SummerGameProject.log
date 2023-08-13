@@ -1,0 +1,7 @@
+﻿  Game.cpp
+  Login.cpp
+  Main.cpp
+C:\Users\82105\Desktop\2023SummerProject-SES\MatchingGame\SummerGameProject\Main.cpp(6,33): warning C4829: main 함수에 대한 매개 변수가 잘못된 것 같습니다. 'int main(Platform::Array<Platform::String^>^ argv)'를 사용하십시오.
+  코드를 생성하고 있습니다...
+  Game.obj : MSIL 모듈이 발견되었습니다. MSIL에 증분 링크를 사용할 수 없습니다. 전체 링크를 수행하고 있습니다.
+  SummerGameProject.vcxproj -> C:\Users\82105\Desktop\2023SummerProject-SES\MatchingGame\x64\Debug\SummerGameProject.exe

@@ -1,0 +1,6 @@
+C:\Users\82105\Desktop\2023SummerProject-SES\MatchingGame\SummerGameProject\x64\Debug\SummerGameProject.Game.resources
+C:\Users\82105\Desktop\2023SummerProject-SES\MatchingGame\SummerGameProject\x64\Debug\SummerGameProject.Login.resources
+C:\Users\82105\Desktop\2023SummerProject-SES\MatchingGame\SummerGameProject\x64\Debug\SummerGameProject.Main.resources
+C:\Users\82105\Desktop\2023SummerProject-SES\MatchingGame\SummerGameProject\x64\Debug\SummerGameProject.Manual.resources
+C:\Users\82105\Desktop\2023SummerProject-SES\MatchingGame\SummerGameProject\x64\Debug\SummerGameProject.vcxproj.GenerateResource.cache
+C:\Users\82105\Desktop\2023SummerProject-SES\MatchingGame\SummerGameProject\x64\Debug\SummerGameProject.vcxproj.AssemblyReference.cache
