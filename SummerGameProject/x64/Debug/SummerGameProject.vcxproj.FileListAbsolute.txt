@@ -1,0 +1,14 @@
+C:\Users\ksy06\OneDrive\바탕 화면\여름프로젝트\승윤\2023SummerProject-SES\2023SummerProject-SES\MatchingGame\SummerGameProject\x64\Debug\SummerGameProject.vcxproj.AssemblyReference.cache
+C:\Users\ksy06\OneDrive\바탕 화면\여름프로젝트\승윤\2023SummerProject-SES\2023SummerProject-SES\MatchingGame\SummerGameProject\x64\Debug\SummerGameProject.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\ksy06\OneDrive\바탕 화면\여름프로젝트\승윤\2023SummerProject-SES\2023SummerProject-SES\MatchingGame\SummerGameProject\x64\Debug\SummerGameProject.Game.resources
+C:\Users\ksy06\OneDrive\바탕 화면\여름프로젝트\승윤\2023SummerProject-SES\2023SummerProject-SES\MatchingGame\SummerGameProject\x64\Debug\SummerGameProject.Login.resources
+C:\Users\ksy06\OneDrive\바탕 화면\여름프로젝트\승윤\2023SummerProject-SES\2023SummerProject-SES\MatchingGame\SummerGameProject\x64\Debug\SummerGameProject.Main.resources
+C:\Users\ksy06\OneDrive\바탕 화면\여름프로젝트\승윤\2023SummerProject-SES\2023SummerProject-SES\MatchingGame\SummerGameProject\x64\Debug\SummerGameProject.Manual.resources
+C:\Users\ksy06\OneDrive\바탕 화면\여름프로젝트\승윤\2023SummerProject-SES\2023SummerProject-SES\MatchingGame\SummerGameProject\x64\Debug\SummerGameProject.vcxproj.GenerateResource.cache
+C:\Users\ksy06\Downloads\2023SummerProject-KSY\2023SummerProject-KSY\SummerGameProject\x64\Debug\SummerGameProject.vcxproj.AssemblyReference.cache
+C:\Users\ksy06\Downloads\2023SummerProject-KSY\2023SummerProject-KSY\SummerGameProject\x64\Debug\SummerGameProject.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\ksy06\Downloads\2023SummerProject-KSY\2023SummerProject-KSY\SummerGameProject\x64\Debug\SummerGameProject.Game.resources
+C:\Users\ksy06\Downloads\2023SummerProject-KSY\2023SummerProject-KSY\SummerGameProject\x64\Debug\SummerGameProject.Login.resources
+C:\Users\ksy06\Downloads\2023SummerProject-KSY\2023SummerProject-KSY\SummerGameProject\x64\Debug\SummerGameProject.Main.resources
+C:\Users\ksy06\Downloads\2023SummerProject-KSY\2023SummerProject-KSY\SummerGameProject\x64\Debug\SummerGameProject.Manual.resources
+C:\Users\ksy06\Downloads\2023SummerProject-KSY\2023SummerProject-KSY\SummerGameProject\x64\Debug\SummerGameProject.vcxproj.GenerateResource.cache
