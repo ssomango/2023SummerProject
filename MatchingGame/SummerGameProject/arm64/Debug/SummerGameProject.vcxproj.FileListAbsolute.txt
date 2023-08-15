@@ -5,3 +5,4 @@ C:\Users\so-eunseo\MatchingGame\SummerGameProject\arm64\Debug\SummerGameProject.
 C:\Users\so-eunseo\MatchingGame\SummerGameProject\arm64\Debug\SummerGameProject.Manual.resources
 C:\Users\so-eunseo\MatchingGame\SummerGameProject\arm64\Debug\SummerGameProject.vcxproj.GenerateResource.cache
 C:\Users\so-eunseo\MatchingGame\SummerGameProject\arm64\Debug\SummerGameProject.Game.resources
+C:\Users\so-eunseo\MatchingGame\SummerGameProject\arm64\Debug\SummerGameProject.GameWin.resources
