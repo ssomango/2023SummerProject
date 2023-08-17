@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Login.h"
-#include "Manual.h"
+
 
 namespace SummerGameProject {
 
@@ -65,12 +65,15 @@ namespace SummerGameProject {
 			// 
 			// StartButton
 			// 
+			this->StartButton->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->StartButton->BackColor = System::Drawing::Color::Red;
 			this->StartButton->FlatAppearance->BorderColor = System::Drawing::Color::Red;
 			this->StartButton->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
 			this->StartButton->Font = (gcnew System::Drawing::Font(L"±¼¸²", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(129)));
-			this->StartButton->Location = System::Drawing::Point(189, 681);
+			this->StartButton->Location = System::Drawing::Point(187, 683);
 			this->StartButton->Name = L"StartButton";
 			this->StartButton->Size = System::Drawing::Size(93, 64);
 			this->StartButton->TabIndex = 0;
@@ -79,6 +82,9 @@ namespace SummerGameProject {
 			// 
 			// EXITButton
 			// 
+			this->EXITButton->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->EXITButton->BackColor = System::Drawing::Color::Red;
 			this->EXITButton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::None;
 			this->EXITButton->FlatAppearance->BorderColor = System::Drawing::Color::Red;
@@ -91,7 +97,7 @@ namespace SummerGameProject {
 			this->EXITButton->Size = System::Drawing::Size(88, 65);
 			this->EXITButton->TabIndex = 2;
 			this->EXITButton->UseVisualStyleBackColor = false;
-			this->EXITButton->Click += gcnew System::EventHandler(this, &Main::EXITButton_Click);
+			this->EXITButton->Click += gcnew System::EventHandler(this, &Main::FormClosing);
 			// 
 			// Main
 			// 
@@ -102,9 +108,11 @@ namespace SummerGameProject {
 			this->ClientSize = System::Drawing::Size(1894, 1009);
 			this->Controls->Add(this->EXITButton);
 			this->Controls->Add(this->StartButton);
-			this->Cursor = System::Windows::Forms::Cursors::IBeam;
+			this->Cursor = System::Windows::Forms::Cursors::Default;
 			this->DoubleBuffered = true;
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedToolWindow;
 			this->Name = L"Main";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Main";
 			this->Load += gcnew System::EventHandler(this, &Main::Main_Load);
 			this->ResumeLayout(false);
@@ -117,11 +125,13 @@ namespace SummerGameProject {
 		f2->ShowDialog();
 	}
 	private: System::Void EXITButton_Click(System::Object^ sender, System::EventArgs^ e) {
-		/*this->Hide();
-		ETC^ f2 = gcnew ETC();
-		f2->ShowDialog();*/
+	
 	}
 	private: System::Void Main_Load(System::Object^ sender, System::EventArgs^ e) {
+	}
+	private: System::Void FormClosing(System::Object^ sender, System::EventArgs^ e)
+	{
+		Close();
 	}
 };
 }

@@ -1,37 +1,34 @@
 #pragma once
 #include "Game.h"
-//#include <iostream>
-//#include <string>
-//using namespace std;
-//using namespace System;
-
-
 
 namespace SummerGameProject {
-	
 	using namespace System;
 	using namespace System::ComponentModel;
 	using namespace System::Collections;
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
+	using System::String;
+
 
 	/// <summary>
 	/// Login에 대한 요약입니다.
 	/// </summary>
+	
 	public ref class Login : public System::Windows::Forms::Form
 	{
 	public:
+
 		Login(void)
 		{
 			InitializeComponent();
+			
 			//
 			//TODO: 생성자 코드를 여기에 추가합니다.
 			// 
-			
+			//유저 닉네임 저장
 		}
 		
-
 	protected:
 		/// <summary>
 		/// 사용 중인 모든 리소스를 정리합니다.
@@ -85,10 +82,9 @@ namespace SummerGameProject {
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(450, 35);
 			this->textBox1->TabIndex = 1;
+			this->textBox1->Text = L"이름을 입력하세요 ..";
+			this->textBox1->Click += gcnew System::EventHandler(this, &Login::textbox1_Click);
 			this->textBox1->TextChanged += gcnew System::EventHandler(this, &Login::textBox1_TextChanged);
-			this->textBox1->Text = "이름을 입력하세요 ..";
-			
-			
 			// 
 			// Login
 			// 
@@ -101,6 +97,7 @@ namespace SummerGameProject {
 			this->Controls->Add(this->GOButton);
 			this->DoubleBuffered = true;
 			this->Name = L"Login";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Login";
 			this->Load += gcnew System::EventHandler(this, &Login::Login_Load);
 			this->ResumeLayout(false);
@@ -109,14 +106,24 @@ namespace SummerGameProject {
 		}
 #pragma endregion
 	private: System::Void GOButton_Click(System::Object^ sender, System::EventArgs^ e) {
+		
 		this->Hide();
 		Game^ f2 = gcnew Game();
 		f2->ShowDialog();
 	}
 	private: System::Void Login_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
+
 	private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {
-		String^ username = textBox1->Text;
+		//userid = gcnew String(textBox1->Text);
+		//username = Text;
+		//textBox1->Text = username;
+
+		GameWin::userid = textBox1->Text;
 	}
+		   private: System::Void textbox1_Click(System::Object^ sender, System::EventArgs^ e) {
+
+			   textBox1->Text = "";
+		   }
 	};
 }
