@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Login.h"
-#include "Manual.h"
+
 
 namespace SummerGameProject {
 

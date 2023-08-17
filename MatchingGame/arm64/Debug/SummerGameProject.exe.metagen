@@ -1,4 +1,5 @@
   SummerGameProject.Game.resources - Embedded, ContainedInManifestFile, 
+  SummerGameProject.GameWin.resources - Embedded, ContainedInManifestFile, 
   SummerGameProject.Login.resources - Embedded, ContainedInManifestFile, 
   SummerGameProject.Main.resources - Embedded, ContainedInManifestFile, 
   SummerGameProject.Manual.resources - Embedded, ContainedInManifestFile, 
@@ -17,19 +18,24 @@ Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
 	hash=None, flags=None
 Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
+Class SummerGameProject.GameWin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String userid : Public, Static
 Class SummerGameProject.Game: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Fields:
-    Int32 hours : Public
-    Int32 minutes : Public
     Int32 seconds : Public
+  Methods:
+    check(Int32): PrivateScope, Public, HideBySig
 Class SummerGameProject.Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class SummerGameProject.Manual: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class SummerGameProject.Main: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class SummerGameProject.Main: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+Class SummerGameProject.Manual: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

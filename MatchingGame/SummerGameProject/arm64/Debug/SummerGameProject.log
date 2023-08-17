@@ -1,3 +1,10 @@
-﻿  Game.obj : MSIL 모듈이 발견되었습니다. MSIL에 증분 링크를 사용할 수 없습니다. 전체 링크를 수행하고 있습니다.
-LINK : error LNK2001: 확인할 수 없는 외부 기호 _CorExeMain
-C:\Users\82105\Desktop\2023SummerProject-SES\MatchingGame\arm64\Debug\SummerGameProject.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+﻿  Game.cpp
+C:\Users\so-eunseo\MatchingGame\SummerGameProject\Game.h(302,1): warning C4965: 정수 0을 암시적으로 boxing했습니다. nullptr 또는 명시적 캐스트를 사용하십시오.
+  Login.cpp
+C:\Users\so-eunseo\MatchingGame\SummerGameProject\Game.h(302,1): warning C4965: 정수 0을 암시적으로 boxing했습니다. nullptr 또는 명시적 캐스트를 사용하십시오.
+  Main.cpp
+C:\Users\so-eunseo\MatchingGame\SummerGameProject\Game.h(302,1): warning C4965: 정수 0을 암시적으로 boxing했습니다. nullptr 또는 명시적 캐스트를 사용하십시오.
+C:\Users\so-eunseo\MatchingGame\SummerGameProject\Main.cpp(6,33): warning C4829: main 함수에 대한 매개 변수가 잘못된 것 같습니다. 'int main(Platform::Array<Platform::String^>^ argv)'를 사용하십시오.
+  코드를 생성하고 있습니다...
+  Game.obj : MSIL 모듈이 발견되었습니다. MSIL에 증분 링크를 사용할 수 없습니다. 전체 링크를 수행하고 있습니다.
+  SummerGameProject.vcxproj -> C:\Users\so-eunseo\MatchingGame\arm64\Debug\SummerGameProject.exe
